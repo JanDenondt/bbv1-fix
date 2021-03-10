@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Common.hpp" />
+    <ClInclude Include="Logger.hpp" />
+    <ClInclude Include="Game.hpp" />
+    <ClInclude Include="Hooking.hpp" />
+    <ClInclude Include="ScriptManager.hpp" />
+    <ClInclude Include="VMTHook.hpp" />
+    <ClInclude Include="LogScript.hpp" />
+    <ClInclude Include="Invoker.hpp" />
+    <ClInclude Include="Crossmap.hpp" />
+    <ClInclude Include="Natives.hpp" />
+    <ClInclude Include="Types.hpp" />
+    <ClInclude Include="Script.hpp" />
+    <ClInclude Include="Settings.hpp" />
+    <ClInclude Include="Util.hpp" />
+    <ClInclude Include="Lists.hpp" />
+    <ClInclude Include="ScriptGlobal.hpp" />
+    <ClInclude Include="Timer.hpp" />
+    <ClInclude Include="ScriptCallback.hpp" />
+    <ClInclude Include="CustomText.hpp" />
+    <ClInclude Include="D3DRenderer.hpp" />
+    <ClInclude Include="MainScript.hpp" />
+    <ClInclude Include="Translation.hpp" />
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\AbstractOption.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\AbstractSubmenu.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BaseOption.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BaseSubmenu.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BoolOption.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ChooseOption.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\NumberOption.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\PlayerSubmenu.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\RegularOption.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\RegularSubmenu.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIManager.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\SubOption.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TextBox.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SignatureScanner.hpp" />
+    <ClInclude Include="Functions\Functions.hpp">
+      <Filter>Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManager.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Hooking.cpp" />
+    <ClCompile Include="ScriptManager.cpp" />
+    <ClCompile Include="LogScript.cpp" />
+    <ClCompile Include="ScriptCallback.cpp" />
+    <ClCompile Include="CustomText.cpp" />
+    <ClCompile Include="D3DRenderer.cpp" />
+    <ClCompile Include="MainScript.cpp" />
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIManager.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptGlobal.cpp" />
+    <ClCompile Include="Functions\Functions.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{76d6c557-7b0a-40a5-bbf4-44a3a9492996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{cd0ab618-92ec-4ee1-b317-a3ffd9be9e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions">
+      <UniqueIdentifier>{2deaf6d1-6f6a-4781-8aa5-fc0807b3333b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="spoofer.asm" />
+  </ItemGroup>
+</Project>
